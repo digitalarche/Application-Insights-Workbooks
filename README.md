@@ -31,10 +31,13 @@ Use these links to learn more about workbooks:
 * [Data Sources](Documentation/DataSources/DataSources.md)
 * [Visualizations](Documentation/Visualizations/Visualizations.md)
 * [Parameters](Documentation/Parameters/Parameters.md)
+* [Groups](Documentation/Groups/Groups.md)
 * [Interactivity](Documentation/Interactivity.md)
 * [Manage programmatically](Documentation/Programmatically.md)
 * [Sample Gallery](Documentation/Samples/Samples.md)
-* [Testing](Documentation/Testing/PreviewTemplates.md)
+* [Contributing](Documentation/Contributing.md) 
+* [Testing](Documentation/Contributing.md#how-to-test-your-changes)
+* [Previews](Documentation/Contributing.md#testing-preview-workbook-templates)
 
 ### Sample Workbook 
 ![Image of a sample workbook](Documentation/Images/WorkbookExample.png)

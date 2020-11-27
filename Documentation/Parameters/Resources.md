@@ -61,7 +61,7 @@ Values from resource pickers can come from the workbook context, static list or 
         { "value":"/subscriptions/<sub-id>/resourceGroups/<resource-group>/providers/<resource-type>/acmeweb", "label": "acmeweb", "selected":false, "group":"Acme Frontend" }
     ]
     ```
-    2. Hit the blue _Update_ button.
+    2. Use the blue _Update_ button.
 6. Optionally set the `Include only resource types` to _Application Insights_
 7. Choose 'Save' from the toolbar to create the parameter.
 
@@ -90,5 +90,12 @@ Values from resource pickers can come from the workbook context, static list or 
 | `{Applications:resourceGroup}` | The resource group of the selected resource | _acmegroup_ |
 | `{Applications:resourceType}` | The type of the selected resource | _microsoft.insights/components_ |
 | `{Applications:subscription}` | The subscription of the selected resource |  |
+| `{Applications:subscriptionid}` | The subscription guid id of a subscription or resource |  |
+| `{Applications:subid}` | The subscription guid id of a subscription or resource with ' quote |  |
+| `{Applications:id}` | The guid id of a subscription |  |
 | `{Applications:grid}` | A grid showing the resource properties. Useful to render in a text block while debugging  |  |
+
+See also:
+
+[Parameter Options](formatting.md)
 

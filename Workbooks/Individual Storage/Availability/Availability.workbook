@@ -11,7 +11,8 @@
           {
             "id": "487a9f92-5350-4eec-8d68-15bdf2470550",
             "version": "KqlParameterItem/1.0",
-            "name": "StorageAccount",
+            "name": "Resource",
+            "label": "Storage Account",
             "type": 5,
             "isRequired": true,
             "value": "value::1",
@@ -104,93 +105,6 @@
       }
     },
     {
-      "type": 11,
-      "content": {
-        "version": "LinkItem/1.0",
-        "style": "nav",
-        "links": [
-          {
-            "linkTarget": "WorkbookTemplate",
-            "linkLabel": "Overview",
-            "preText": "",
-            "style": "secondary",
-            "workbookContext": {
-              "componentIdSource": "workbook",
-              "resourceIdsSource": "workbook",
-              "templateIdSource": "static",
-              "templateId": "Community-Workbooks/Individual Storage/Overview",
-              "typeSource": "workbook",
-              "gallerySource": "workbook"
-            }
-          },
-          {
-            "linkTarget": "WorkbookTemplate",
-            "linkLabel": "Failures",
-            "style": "secondary",
-            "workbookContext": {
-              "componentIdSource": "workbook",
-              "resourceIdsSource": "workbook",
-              "templateIdSource": "static",
-              "templateId": "Community-Workbooks/Individual Storage/Failures",
-              "typeSource": "workbook",
-              "gallerySource": "workbook"
-            }
-          },
-          {
-            "linkTarget": "WorkbookTemplate",
-            "linkLabel": "Performance",
-            "style": "secondary",
-            "workbookContext": {
-              "componentIdSource": "workbook",
-              "resourceIdsSource": "workbook",
-              "templateIdSource": "static",
-              "templateId": "Community-Workbooks/Individual Storage/Performance",
-              "typeSource": "workbook",
-              "gallerySource": "workbook"
-            }
-          },
-          {
-            "cellValue": "",
-            "linkTarget": "WorkbookTemplate",
-            "linkLabel": "Availability",
-            "subTarget": "",
-            "style": "primary",
-            "workbookContext": {
-              "componentIdSource": "workbook",
-              "resourceIdsSource": "workbook",
-              "templateIdSource": "static",
-              "templateId": "Community-Workbooks/Individual Storage/Availability",
-              "typeSource": "workbook",
-              "gallerySource": "workbook"
-            }
-          },
-          {
-            "linkTarget": "WorkbookTemplate",
-            "linkLabel": "Capacity",
-            "style": "secondary",
-            "workbookContext": {
-              "componentIdSource": "workbook",
-              "resourceIdsSource": "workbook",
-              "templateIdSource": "static",
-              "templateId": "Community-Workbooks/Individual Storage/Capacity",
-              "typeSource": "workbook",
-              "gallerySource": "workbook"
-            }
-          },
-          {
-            "cellValue": "https://aka.ms/saidoc",
-            "linkTarget": "Url",
-            "linkLabel": "Learn more",
-            "style": "link"
-          }
-        ]
-      },
-      "name": "Navigation menu",
-      "styleSettings": {
-        "margin": "0 0 20px 0"
-      }
-    },
-    {
       "type": 10,
       "content": {
         "chartId": "workbook874420eb-4632-4961-9fb9-b29ef76d947b",
@@ -198,14 +112,14 @@
         "size": 4,
         "chartType": 0,
         "resourceIds": [
-          "{StorageAccount}"
+          "{Resource}"
         ],
         "timeContext": {
           "durationMs": 0
         },
         "timeContextFromParameter": "TimeRange",
         "resourceType": "microsoft.storage/storageaccounts",
-        "resourceParameter": "StorageAccount",
+        "resourceParameter": "Resource",
         "metrics": [
           {
             "namespace": "microsoft.storage/storageaccounts",
@@ -452,14 +366,14 @@
         "size": 4,
         "chartType": 0,
         "resourceIds": [
-          "{StorageAccount}"
+          "{Resource}"
         ],
         "timeContext": {
           "durationMs": 0
         },
         "timeContextFromParameter": "TimeRange",
         "resourceType": "microsoft.storage/storageaccounts",
-        "resourceParameter": "StorageAccount",
+        "resourceParameter": "Resource",
         "metrics": [
           {
             "namespace": "microsoft.storage/storageaccounts/blobservices",
@@ -717,14 +631,14 @@
         "size": 0,
         "chartType": 2,
         "resourceIds": [
-          "{StorageAccount}"
+          "{Resource}"
         ],
         "timeContext": {
           "durationMs": 0
         },
         "timeContextFromParameter": "TimeRange",
         "resourceType": "microsoft.storage/storageaccounts",
-        "resourceParameter": "StorageAccount",
+        "resourceParameter": "Resource",
         "metrics": [
           {
             "namespace": "microsoft.storage/storageaccounts/blobservices",

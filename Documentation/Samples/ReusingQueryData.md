@@ -19,7 +19,7 @@ There are times where you want to visualize the underlying data set in different
     4. Click the `Run Query` button to see the results. This is the result data set that we want to reuse in multiple visualizations.
 
         ![Image showing a result of a query](../Images/Reuse-data-resultset.png)
-    5. Go to `Advanced settings` (click the gear icon at the footer of the control):
+    5. Go to the `Advanced settings` tab:
         1. Step name: `Cpu data` - this gives a friendly name for referencing the data later. 
 
 
@@ -42,7 +42,7 @@ There are times where you want to visualize the underlying data set in different
 
     2. Use the `Delete` button to remove a column.
         1. Select the `[Cpu data].CpuP95 row
-        2. Hit the `Delete` button in the query control toolbar.
+        2. Use the `Delete` button in the query control toolbar.
         3. Use the `Run Merge` button to see the result set without the CpuP95 column
 
     3. Change the order of the columns using the `Move up` or `Move down` buttons in the toolbar.
